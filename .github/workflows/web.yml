@@ -23,7 +23,7 @@ jobs:
           channel: 'stable'
       - run: flutter config --enable-web
       - run: flutter pub get
-      - run: flutter build web --release --base-href "/sample-risk-apps/"
+      - run: flutter build web --release --base-href "/Blutooth-web-print/"
         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
